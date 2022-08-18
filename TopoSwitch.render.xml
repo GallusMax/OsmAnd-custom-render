@@ -6,20 +6,26 @@
 	<order>
 		<switch>
 			<case tag="highway" value="motorway"/>
+			<case tag="highway" value="motorway_link"/>
 			<case tag="highway" value="trunk"/>
 			<case tag="highway" value="primary"/>
 			<case tag="highway" value="secondary"/>
 			<case tag="highway" value="tertiary"/>
 			<case tag="highway" value="pedestrian"/>
+			<case tag="highway" value="crossing"/>
 			<case tag="highway" value="service"/>
 			<case tag="highway" value="road"/>
 			<case tag="highway" value="unclassified"/>
-			<case tag="highway" value="service"/>
 	<!--				<case tag="highway" value="rest_area"/>-->
 			<case tag="highway" value="residential"/>
+			<case tag="highway" value="living_street"/>
 			<case tag="highway" value="footway"/>
+			<case tag="highway" value="steps"/>
+			<case tag="highway" value="path"/>
 			<case tag="highway" value="track"/>
 			<case tag="highway" value="cycleway"/>
+			<case tag="highway" value="bridleway"/>
+			<case tag="highway" value="bus_stop"/>
 			<case tag="man_made" value="bridge"/>
 			<case tag="man_made" value="pier"/>
 			    <apply_if hideRoads="true" order="-1"/>
