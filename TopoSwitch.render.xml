@@ -25,7 +25,6 @@
 			<case tag="waterway" value="dam"/>
 			<case tag="waterway" value="weir"/>
 			    <apply_if hideRoads="true" order="-1"/>
-			</case>
 		</switch>
 		<switch>
 			<case tag="building" value="yes">
