@@ -10,26 +10,19 @@
 			<case tag="highway" value="primary"/>
 			<case tag="highway" value="secondary"/>
 			<case tag="highway" value="tertiary"/>
-			<case tag="area:highway" value="pedestrian"/>
+			<case tag="highway" value="pedestrian"/>
 			<case tag="highway" value="service"/>
-			<case tag="area:highway" value="road"/>
-			<case tag="area:highway" value="unclassified"/>
-			<case tag="area:highway" value="service"/>
+			<case tag="highway" value="road"/>
+			<case tag="highway" value="unclassified"/>
+			<case tag="highway" value="service"/>
 	<!--				<case tag="highway" value="rest_area"/>-->
-			<case tag="area:highway" value="residential"/>
-			<case tag="area:highway" value="footway"/>
-			<case tag="area:highway" value="track"/>
-			<case tag="area:highway" value="cycleway"/>
+			<case tag="highway" value="residential"/>
+			<case tag="highway" value="footway"/>
+			<case tag="highway" value="track"/>
+			<case tag="highway" value="cycleway"/>
 			<case tag="man_made" value="bridge"/>
 			<case tag="man_made" value="pier"/>
-			<case tag="waterway" value="dam"/>
-			<case tag="waterway" value="weir"/>
 			    <apply_if hideRoads="true" order="-1"/>
-		</switch>
-		<switch>
-			<case tag="building" value="yes">
-			    <apply_if hideRoads="true" order="-1"/>
-			</case>
 		</switch>
 	</order>
 
