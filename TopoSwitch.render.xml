@@ -1,0 +1,25 @@
+<renderingStyle name="Topo-switch" depends="topo" defaultColor="#f1eae4" version="1">
+
+	<renderingProperty attr="hideRoads" name="Roads" description="Hide roads"
+		type="boolean" possibleValues="" category="hide"/>
+
+	<order>
+		<switch>
+			<case tag="highway" >
+			    <apply_if hideRoads="true" order="-1"/>
+			</case>
+		</switch>
+	</order>
+
+	<text>
+	</text>
+
+	<point>
+	</point>
+
+	<polygon>
+	</polygon>
+
+	<line>
+	</line>
+</renderingStyle>
