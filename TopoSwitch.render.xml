@@ -5,7 +5,17 @@
 
 	<order>
 		<switch>
-			<case tag="highway" >
+			<case tag="highway" value="track">
+			    <apply_if hideRoads="true" order="-1"/>
+			</case>
+		</switch>
+		<switch>
+			<case tag="highway" value="path">
+			    <apply_if hideRoads="true" order="-1"/>
+			</case>
+		</switch>
+		<switch>
+			<case tag="building" value="yes">
 			    <apply_if hideRoads="true" order="-1"/>
 			</case>
 		</switch>
