@@ -5,13 +5,13 @@
 
 	<order>
 		<switch>
-			<case tag="area:highway" value="motorway"/>
-			<case tag="area:highway" value="trunk"/>
-			<case tag="area:highway" value="primary"/>
-			<case tag="area:highway" value="secondary"/>
-			<case tag="area:highway" value="tertiary"/>
+			<case tag="highway" value="motorway"/>
+			<case tag="highway" value="trunk"/>
+			<case tag="highway" value="primary"/>
+			<case tag="highway" value="secondary"/>
+			<case tag="highway" value="tertiary"/>
 			<case tag="area:highway" value="pedestrian"/>
-			<case tag="area:highway" value="service"/>
+			<case tag="highway" value="service"/>
 			<case tag="area:highway" value="road"/>
 			<case tag="area:highway" value="unclassified"/>
 			<case tag="area:highway" value="service"/>
