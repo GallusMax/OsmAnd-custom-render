@@ -28,6 +28,7 @@
 			<case tag="highway" value="bus_stop"/>
 			<case tag="man_made" value="bridge"/>
 			<case tag="man_made" value="pier"/>
+			<case tag="amenity" value="hnnting_stand"/>
 			    <apply_if hideRoads="true" order="-1"/>
 		</switch>
 	</order>
